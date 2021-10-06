@@ -1,0 +1,61 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+/* header */
+
+.header-inner {
+    max-width: 1180px;
+    width: 80%;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.header-info {
+    margin-top: 10px;
+}
+
+.header-time {
+    font-size: 14px;
+    color: #444;
+    line-height: 1.4;
+    margin-bottom: 7px;
+}
+
+.header-phone {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-phone {
+    display: flex;
+    justify-items: center;
+}
+
+.header-phone a {
+    font-size: 24px;
+    color: #21a937;
+    font-weight: bold;
+}
+
+.header-phone img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.header-phone span {
+    padding-top: 7px;
+}
