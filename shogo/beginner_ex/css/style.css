@@ -141,4 +141,74 @@ img {
 .content-img {
     width: 690px;
     height: 420px;
+    border-radius: 10px;
+}
+
+/* treatment */
+
+.treatment {
+    background-color: #f5fcf8;
+}
+
+.treatment-inner {
+    max-width: 1180px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.treatment-title {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #444;
+    line-height: 1.58;
+    background: linear-gradient(transparent 75%, #99e5a5 70%);
+    margin: 78px 0 50px;
+}
+
+.treatment-info {
+    font-size: 16px;
+    line-height: 2.375;
+    padding-bottom: 24px;
+}
+
+.treatment-wrapper {
+    display: flex;
+}
+
+.card {
+    position: relative;
+    background-color: #fff;
+    border: 2px solid #c9c9c9;
+    border-radius: 10px;
+    margin-right: 20px;
+    width: calc((100% - 20px * 2) / 3);
+    padding: 20px 28px 257px;
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #444;
+    line-height: 1.58;
+}
+
+.card-text {
+    text-align: left;
+    font-size: 16px;
+    color: #444;
+    line-height: 2.375;
+}
+
+.card-img {
+    width: 187px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
