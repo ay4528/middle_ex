@@ -39,11 +39,6 @@ img {
     justify-content: flex-end;
 }
 
-.header-phone {
-    display: flex;
-    justify-items: center;
-}
-
 .header-phone a {
     font-size: 24px;
     color: #21a937;
@@ -170,6 +165,10 @@ img {
     font-size: 16px;
     line-height: 2.375;
     padding-bottom: 24px;
+}
+
+.treatment-info br {
+    display: none;
 }
 
 .treatment-wrapper {
@@ -402,4 +401,142 @@ img {
     color: #444;
     line-height: 3.4;
     text-align: right;
+}
+
+/* media query */
+
+@media only screen and (max-width: 599px) {
+    .header-inner {
+        width: 80%;
+        height: 105px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 20px;
+    }
+
+    .header-logo {
+        margin: 0 auto;
+        width: 60%;
+        height: 45px;
+    }
+
+    .header-info {
+        margin: 0 auto;
+    }
+
+    .header-time {
+        margin-bottom: 0;
+    }
+
+    .header-phone {
+        justify-content: center;
+    }
+
+    .header-phone a {
+        font-size: 20px;
+        margin-left: 0;
+    }
+
+    .header-phone img {
+        width: 20px;
+        padding-bottom: 5px;
+    }
+
+    .main {
+        height: 540px;
+        background-position: 79%;
+    }
+
+    .main-wrapper {
+        width: 98%;
+        padding: 230px 0 0;
+    }
+
+    .main-title {
+        margin-left: 0;
+    }
+
+    .main-inner {
+        font-size: 15px;
+        padding: 15px 18px 10px;
+        margin-right: 15px;
+        letter-spacing: 0.2rem;
+    }
+
+    .content {
+        padding-top: 50px;
+        height: 530px;
+    }
+
+    .content-inner {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 22px;
+    }
+
+    .content-title {
+        text-align: center;
+        font-size: 17px;
+        margin-left: 10px;
+    }
+
+    .content-title-1 {
+        background: linear-gradient(transparent 60%, #99e5a5 70%);
+    }
+
+    .content-title-2 {
+        background: linear-gradient(transparent 60%, #99e5a5 70%);
+    }
+
+    .content-text {
+        font-size: 13px;
+        text-align: left;
+        line-height: 2;
+    }
+
+    .br-sp {
+        display: none;
+    }
+
+    .content-img img {
+        width: 95%;
+    }
+
+    .treatment-title {
+        margin: 50px 0 30px;
+    }
+
+    .treatment-info br {
+        display: inline-block;
+    }
+
+    .treatment-info {
+        line-height: 1.5;
+        margin-bottom: 40px;
+    }
+
+    .treatment-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 90%;
+        height: 440px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-right: 16px;
+    }
+
+    .card-title {
+        margin-bottom: 5px;
+    }
+
+    .card-text {
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 2;
+    }
 }
