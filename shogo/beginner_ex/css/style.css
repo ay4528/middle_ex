@@ -319,6 +319,10 @@ img {
     margin-bottom: 25px;
 }
 
+.footer-address br {
+    display: none;
+}
+
 .footer-phone img {
     width: 25px;
     height: 25px;
@@ -394,6 +398,10 @@ img {
 
 .footer-info-time2 {
     padding-left: 17px;
+}
+
+.footer-info-map {
+    display: none;
 }
 
 .copyright {
@@ -538,5 +546,140 @@ img {
         font-size: 16px;
         font-weight: bold;
         line-height: 2;
+    }
+
+    .news-inner {
+        width: 90%;
+    }
+
+    .news-title {
+        margin: 50px 0;
+    }
+
+    .news-wrapper {
+        padding: 35px 10px 10px;
+    }
+
+    .news-info {
+        padding-bottom: 10px;
+        margin: 0;
+    }
+
+    .news-info dt {
+        text-align: left;
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+    .news-info dd {
+        width: 95%;
+        font-size: 14px;
+        line-height: 1.5;
+        margin-right: 25px;
+        margin-top: 8px;
+    }
+
+    .info-date {
+        font-size: 14px;
+    }
+
+    .news-btn {
+        margin: 35px 30px 30px 0;
+    }
+
+    .footer-inner {
+        padding-top: 80px;
+        width: 98%;
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+
+    .footer-map {
+        display: none;
+    }
+
+    .footer-wrapper {
+        width: 98%;
+    }
+
+    .footer-logo {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .footer-address {
+        text-align: center;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+    .footer-phone {
+        text-align: center;
+    }
+
+    .footer-phone a {
+        font-size: 20px;
+    }
+
+    .footer-phone img {
+        width: 20px;
+        height: 20px;
+        padding-top: 2px;
+        margin-right: 2px;
+    }
+
+    .footer-address br {
+        display: inline-block;
+    }
+
+    .footer-info-wrapper {
+        text-align: center;
+    }
+
+    .footer-info-wrapper dl {
+        display: block;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .footer-info-wrapper dt {
+        border: none;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .footer-info-wrapper dd {
+        font-size: 16px;
+        letter-spacing: 1.5;
+        line-height: 2;
+    }
+
+    .footer-info-day {
+        display: inline;
+        font-size: 22px;
+        height: 0;
+        padding-top: 15px;
+        margin-top: 20px;
+    }
+
+    .footer-info-time-wrapper {
+        display: flex;
+        margin-right: 20px;
+    }
+
+    .footer-info-map {
+        display: block;
+    }
+
+    .footer-info-map iframe {
+        width: 98%;
+    }
+
+    .copyright {
+        text-align: center;
+        margin-top: 10px;
     }
 }
