@@ -416,7 +416,7 @@ img {
 @media only screen and (max-width: 599px) {
     .header-inner {
         width: 80%;
-        height: 105px;
+        height: auto;
         display: flex;
         flex-wrap: wrap;
         padding-top: 20px;
@@ -424,7 +424,7 @@ img {
 
     .header-logo {
         margin: 0 auto;
-        width: 60%;
+        width: 280px;
         height: 45px;
     }
 
@@ -433,6 +433,7 @@ img {
     }
 
     .header-time {
+        margin-top: 40px;
         margin-bottom: 0;
     }
 
@@ -603,7 +604,7 @@ img {
     }
 
     .footer-logo {
-        width: 60%;
+        width: 280px;
         margin: 0 auto;
     }
 
@@ -676,6 +677,119 @@ img {
 
     .footer-info-map iframe {
         width: 98%;
+    }
+
+    .copyright {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .header-info {
+        text-align: right;
+    }
+
+    .main {
+        height: 750px;
+        background-position: 90%;
+    }
+
+    .main-wrapper {
+        width: 90%;
+    }
+
+    .main-title {
+        padding-top: 150px;
+    }
+
+    .main-inner {
+        font-size: 20px;
+        padding: 15px 20px 15px;
+        margin-right: 40px;
+    }
+
+    .content-inner {
+        width: 95%;
+        height: 300px;
+    }
+
+    .content-wrapper {
+        margin-left: 20px;
+    }
+
+    .content-text {
+        font-size: 14px;
+    }
+
+    .treatment-wrapper {
+        width: 98%;
+    }
+
+    .card:first-child {
+        margin-left: 20px;
+    }
+
+    .news-wrapper {
+        width: 96%;
+        margin-left: 20px;
+    }
+
+    .news-info dt {
+        display: flex;
+        width: 40%;
+    }
+
+    .news-info dd {
+        width: 90%;
+    }
+
+    .info-date {
+        margin-top: 5px;
+    }
+
+    .info-title {
+        height: 28px;
+        margin-top: 10px;
+    }
+
+    .footer-inner {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        margin-top: 0;
+    }
+
+    .footer-map {
+        display: none;
+    }
+
+    .footer-wrapper {
+        text-align: center;
+    }
+
+    .footer-logo {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .footer-address {
+        margin-bottom: 10px;
+    }
+
+    .footer-info-wrapper {
+        width: 70%;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+
+    .footer-info-wrapper dl {
+        width: 400px;
+        margin: auto;
+        height: auto;
+    }
+
+    .footer-info-map {
+        display: block;
     }
 
     .copyright {
