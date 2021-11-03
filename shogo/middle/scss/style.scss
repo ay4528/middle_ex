@@ -1,0 +1,88 @@
+@use "variable" as v;
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #333;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+@mixin contact-btn {
+    font-size: 14px;
+    color: #fff;
+    background: v.$btn-color;
+    padding: 10px 50px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    display: block;
+    text-align: center;
+}
+
+/* header */
+
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 94px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+
+    &-inner {
+        max-width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    &-logo {
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+    &-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-left: 15px;
+    }
+
+    &-nav {
+        ul {
+            display: flex;
+            justify-content: space-between;
+
+            li {
+                text-align: center;
+                margin-right: 45px;
+
+                a {
+                    color: v.$text-color;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    &-btn {
+        a {
+            @include contact-btn;
+        }
+    }
+
+}
