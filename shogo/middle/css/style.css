@@ -112,4 +112,78 @@ a {
   top: 29%;
   z-index: 1000;
 }
+
+/* feature */
+.feature-inner {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 70px;
+  padding-bottom: 150px;
+}
+.feature-inner h2 {
+  font-size: 32px;
+  line-height: 1.4;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.feature-subtitle {
+  color: #3ba6c9;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: bold;
+  margin-bottom: 55px;
+  text-align: center;
+}
+.feature-wrapper {
+  padding-bottom: 60px;
+}
+.feature-wrapper h3 {
+  font-size: 28px;
+  line-height: 1.4;
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.feature-wrapper img {
+  width: 40%;
+}
+.feature-container {
+  display: flex;
+}
+.feature-container-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.feature-text {
+  text-align: left;
+  margin-left: 110px;
+}
+.feature-text h4 {
+  font-size: 24px;
+  line-height: 2;
+  font-weight: bold;
+  margin-bottom: 45px;
+}
+.feature-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: bold;
+}
+.feature-text-reverse {
+  text-align: left;
+  margin-right: 135px;
+}
+.feature-text-reverse h4 {
+  font-size: 24px;
+  line-height: 2;
+  font-weight: bold;
+  margin-bottom: 45px;
+}
+.feature-text-reverse p {
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: bold;
+}
 /*# sourceMappingURL=style.css.map */
