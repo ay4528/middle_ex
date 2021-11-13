@@ -24,6 +24,14 @@ a {
     text-align: center;
 }
 
+@mixin section-title {
+    font-size: 32px;
+    line-height: 1.4;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 /* header */
 
 .header {
@@ -145,11 +153,7 @@ a {
         padding-bottom: 150px;
 
         h2 {
-            font-size: 32px;
-            line-height: 1.4;
-            font-weight: bold;
-            margin-bottom: 10px;
-            text-align: center;
+            @include section-title
         }
     }
 
@@ -224,4 +228,65 @@ a {
         }
     }
 
+}
+
+/* price */
+
+.price {
+    background-color: v.$bg-color;
+
+    &-inner {
+        max-width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 50px;
+        padding-bottom: 65px;
+
+        h2 {
+            @include section-title;
+        }
+    }
+
+    &-subtitle {
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: bold;
+        text-align: center;
+        color: v.$sub-title-color;
+        margin-bottom: 70px;
+    }
+
+    &-table {
+        background-color: #fff;
+        margin: 0 auto;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+        margin-bottom: 35px;
+
+        tr {
+            border: 1px solid #e5e5e5;
+        }
+
+        th {
+            border-right: 1px solid #e5e5e5;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 1.7;
+            width: 30%;
+            padding: 35px 20px;
+        }
+
+        td {
+            font-size: 16px;
+            line-height: 1.7;
+            font-weight: bold;
+            padding-left: 30px;
+        }
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.6;
+        font-weight: bold;
+        text-align: center;
+    }
 }
