@@ -14,6 +14,10 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style: none;
+}
+
 @mixin contact-btn {
     font-size: 14px;
     color: #fff;
@@ -151,10 +155,10 @@ a {
         margin-right: auto;
         padding-top: 70px;
         padding-bottom: 150px;
+    }
 
-        h2 {
-            @include section-title
-        }
+    h2 {
+        @include section-title
     }
 
     &-subtitle {
@@ -241,10 +245,10 @@ a {
         margin-right: auto;
         padding-top: 50px;
         padding-bottom: 65px;
+    }
 
-        h2 {
-            @include section-title;
-        }
+    h2 {
+        @include section-title;
     }
 
     &-subtitle {
@@ -288,5 +292,54 @@ a {
         line-height: 1.6;
         font-weight: bold;
         text-align: center;
+    }
+}
+
+/* faq */
+
+.faq {
+    &-inner {
+        max-width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 55px;
+        padding-bottom: 85px;
+    }
+
+    h2 {
+        @include section-title;
+    }
+
+    &-subtitle {
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: bold;
+        text-align: center;
+        color: v.$sub-title-color;
+        margin-bottom: 30px;
+    }
+
+    ul {
+        li {
+            border: 1px solid #e5e5e5;
+            text-align: center;
+
+            h3 {
+                font-size: 14px;
+                line-height: 1.8;
+                font-weight: bold;
+                padding: 5px 0;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 1.8;
+                font-weight: bold;
+                text-align: left;
+                background-color: #f2f2f2;
+                padding: 15px 0 10px 35px;
+                margin: 0;
+            }
+        }
     }
 }

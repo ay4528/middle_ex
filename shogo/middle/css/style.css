@@ -12,6 +12,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
 /* header */
 .header {
   position: fixed;
@@ -121,7 +125,7 @@ a {
   padding-top: 70px;
   padding-bottom: 150px;
 }
-.feature-inner h2 {
+.feature h2 {
   font-size: 32px;
   line-height: 1.4;
   font-weight: bold;
@@ -198,7 +202,7 @@ a {
   padding-top: 50px;
   padding-bottom: 65px;
 }
-.price-inner h2 {
+.price h2 {
   font-size: 32px;
   line-height: 1.4;
   font-weight: bold;
@@ -241,5 +245,48 @@ a {
   line-height: 1.6;
   font-weight: bold;
   text-align: center;
+}
+
+/* faq */
+.faq-inner {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 55px;
+  padding-bottom: 85px;
+}
+.faq h2 {
+  font-size: 32px;
+  line-height: 1.4;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.faq-subtitle {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: bold;
+  text-align: center;
+  color: #3ba6c9;
+  margin-bottom: 30px;
+}
+.faq ul li {
+  border: 1px solid #e5e5e5;
+  text-align: center;
+}
+.faq ul li h3 {
+  font-size: 14px;
+  line-height: 1.8;
+  font-weight: bold;
+  padding: 5px 0;
+}
+.faq ul li p {
+  font-size: 14px;
+  line-height: 1.8;
+  font-weight: bold;
+  text-align: left;
+  background-color: #f2f2f2;
+  padding: 15px 0 10px 35px;
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */
