@@ -406,3 +406,60 @@ ul {
         }
     }
 }
+
+/* works */
+
+.works {
+    &-inner {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 55px;
+        padding-bottom: 90px;
+    }
+
+    h2 {
+        @include section-title;
+    }
+
+    &-subtitle {
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: bold;
+        text-align: center;
+        color: v.$sub-title-color;
+        margin-bottom: 70px;
+    }
+
+    &-card-wrapper {
+        display: flex;
+        justify-content: center;
+        margin-left: 55px;
+    }
+
+    &-card {
+        display: flex;
+        flex-direction: column;
+        width: 18%;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        margin-right: 50px;
+    }
+
+    &-card-body {
+        h3 {
+            font-size: 16px;
+            line-height: 1.5;
+            font-weight: bold;
+            padding: 5px 15px 5px 15px;
+        }
+    }
+
+    &-card-footer {
+        p {
+            font-size: 14px;
+            line-height: 1.4;
+            font-weight: bold;
+            padding: 0 0 20px 15px;
+        }
+    }
+}
