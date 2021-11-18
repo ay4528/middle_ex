@@ -452,6 +452,16 @@ ul {
   border-radius: 3px;
   margin-bottom: 25px;
 }
+.contact span {
+  background-color: #0c449b;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.8;
+  font-weight: bold;
+  padding: 5px 15px;
+  border-radius: 10px;
+  margin-left: 25px;
+}
 .contact textarea {
   display: block;
   background-color: #eefbfb;
