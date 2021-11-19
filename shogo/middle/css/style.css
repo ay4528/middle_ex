@@ -270,24 +270,26 @@ ul {
   color: #3ba6c9;
   margin-bottom: 30px;
 }
-.faq ul li {
+.faq-list {
   border: 1px solid #e5e5e5;
   text-align: center;
 }
-.faq ul li h3 {
+.faq-list h3 {
   font-size: 14px;
   line-height: 1.8;
   font-weight: bold;
   padding: 5px 0;
+  cursor: pointer;
 }
-.faq ul li p {
+.faq .answer {
   font-size: 14px;
   line-height: 1.8;
   font-weight: bold;
   text-align: left;
   background-color: #f2f2f2;
-  padding: 15px 0 10px 35px;
+  padding: 10px 0 5px 35px;
   margin: 0;
+  display: none;
 }
 
 /* blog */
