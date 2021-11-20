@@ -10,4 +10,9 @@ $(function() {
             $answer.slideDown();
         }
     });
+
+    AOS.init({
+        duration: 800,
+        offset: 250
+    });
 });

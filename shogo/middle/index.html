@@ -8,8 +8,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/sanitize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aos.css">
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/aos.js" defer></script>
     <title>ユアコーディング</title>
 </head>
 
@@ -22,9 +24,9 @@
             </div><!-- /.header-logo -->
             <nav class="header-nav">
                 <ul>
-                    <li><a href="">特徴</a></li>
-                    <li><a href="">価格</a></li>
-                    <li><a href="">お問い合わせ</a></li>
+                    <li><a href="#feature">特徴</a></li>
+                    <li><a href="#price">価格</a></li>
+                    <li><a href="#contact">お問い合わせ</a></li>
                 </ul>
             </nav><!-- /.header-nav -->
             <div class="header-btn">
@@ -46,11 +48,11 @@
         </div><!-- /.main-inner -->
     </section><!-- /.main -->
 
-    <section class="feature">
+    <section class="feature" id="feature">
         <div class="feature-inner">
             <h2>ユアコーディング3つの特徴</h2>
             <p class="feature-subtitle">FEATURES</p><!-- /.feature-subtitle -->
-            <div class="feature-wrapper">
+            <div class="feature-wrapper" data-aos="fade-up">
                 <h3>高速コーディング</h3>
                 <div class="feature-container">
                     <img src="img/cto.png" alt="CTO">
@@ -60,7 +62,7 @@
                     </div><!-- /.feature-text -->
                 </div><!-- /.feature-container -->
             </div><!-- /.feature-wrapper -->
-            <div class="feature-wrapper">
+            <div class="feature-wrapper" data-aos="fade-up">
                 <h3>高品質</h3>
                 <div class="feature-container-reverse">
                     <img src="img/building.png" alt="Building">
@@ -70,7 +72,7 @@
                     </div><!-- /.feature-text-reverse -->
                 </div><!-- /.feature-container-reverse -->
             </div><!-- /.feature-wrapper -->
-            <div class="feature-wrapper">
+            <div class="feature-wrapper" data-aos="fade-up">
                 <h3>迅速なレスポンス</h3>
                 <div class="feature-container">
                     <img src="img/message.png" alt="Message">
@@ -83,7 +85,7 @@
         </div><!-- /.feature-inner -->
     </section><!-- /.feature -->
 
-    <section class="price">
+    <section class="price" id="price" data-aos="fade-up">
         <div class="price-inner">
             <h2>価格</h2>
             <p class="price-subtitle">PRICE</p><!-- /.price-subtitle -->
@@ -111,7 +113,7 @@
         </div><!-- /.price-inner -->
     </section><!-- /.price -->
 
-    <section class="faq">
+    <section class="faq" data-aos="fade-up">
         <div class="faq-inner">
             <h2>よくある質問</h2>
             <p class="faq-subtitle">FAQ</p><!-- /.faq-subtitle -->
@@ -138,7 +140,7 @@
         </div><!-- /.faq-inner -->
     </section><!-- /.faq -->
 
-    <section class="blog">
+    <section class="blog" data-aos="fade-up">
         <div class="blog-inner">
             <h2>ブログ</h2>
             <p class="blog-subtitle">BLOG</p><!-- /.blog-subtitle -->
@@ -174,7 +176,7 @@
         </div><!-- /.blog-inner -->
     </section><!-- /.blog -->
 
-    <section class="works">
+    <section class="works" data-aos="fade-up">
         <div class="works-inner">
             <h2>制作実績</h2>
             <p class="works-subtitle">WORKS</p><!-- /.works-subtitle -->
@@ -210,7 +212,7 @@
         </div><!-- /.works-inner -->
     </section><!-- /.works -->
 
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="contact-inner">
             <h2>お問い合わせ</h2>
             <p class="contact-subtitle">CONTACT</p><!-- /.contact-subtitle -->
