@@ -18,6 +18,17 @@ $(function() {
         header: '#header'
     });
 
+    //submit
+    $('#submit').prop('disabled', true);
+
+    $('#check').click(function() {
+        if ($(this).prop('checked') == false) {
+            $('#submit').prop('disabled', true)
+        } else {
+            $('#submit').prop('disabled', false);
+        }
+    });
+
     AOS.init({
         duration: 800,
         offset: 250
