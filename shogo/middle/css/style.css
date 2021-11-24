@@ -61,6 +61,9 @@ ul {
   color: #333;
   font-weight: bold;
 }
+.header .menu {
+  display: none;
+}
 .header-btn a {
   font-size: 14px;
   color: #fff;
@@ -370,12 +373,12 @@ ul {
   color: #3ba6c9;
   margin-bottom: 70px;
 }
-.works-card-wrapper {
+.works .swiper-wrapper {
   display: flex;
   justify-content: center;
-  margin-left: 55px;
+  margin-left: 27px;
 }
-.works-card {
+.works .swiper-slide {
   display: flex;
   flex-direction: column;
   width: 18%;
@@ -383,13 +386,13 @@ ul {
   border-radius: 8px;
   margin-right: 50px;
 }
-.works-card-body h3 {
+.works .swiper-slide-body h3 {
   font-size: 16px;
   line-height: 1.5;
   font-weight: bold;
   padding: 5px 15px 5px 15px;
 }
-.works-card-footer p {
+.works .swiper-slide-footer p {
   font-size: 14px;
   line-height: 1.4;
   font-weight: bold;
@@ -501,6 +504,7 @@ ul {
   border-radius: 10px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   padding: 10px 0;
+  cursor: pointer;
 }
 .contact #submit[disabled] {
   opacity: 0.5;
@@ -536,5 +540,98 @@ ul {
   font-size: 14px;
   line-height: 1.4;
   margin-top: 50px;
+}
+
+/* media phone */
+@media only screen and (max-width: 599px) {
+  .header-inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+  .header-logo img {
+    width: 80%;
+    height: 80%;
+  }
+  .header-title {
+    font-size: 18px;
+  }
+  .header-nav {
+    display: none;
+  }
+  .header-nav ul {
+    text-align: center;
+  }
+  .header-nav ul li {
+    font-size: 14px;
+  }
+  .header .openbtn {
+    position: fixed;
+    top: 0;
+    right: 0;
+    position: relative;
+    background: #fff;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #444;
+    border-radius: 5px;
+  }
+  .header .openbtn span {
+    display: inline-block;
+    position: absolute;
+    transition: all 0.4s;
+    left: 14px;
+    height: 3px;
+    border-radius: 2px;
+    background: #444;
+    width: 45%;
+  }
+  .header .openbtn span:nth-of-type(1) {
+    top: 15px;
+  }
+  .header .openbtn span:nth-of-type(2) {
+    top: 23px;
+  }
+  .header .openbtn span:nth-of-type(3) {
+    top: 31px;
+  }
+  .header .openbtn.active span:nth-of-type(1) {
+    top: 18px;
+    left: 18px;
+    -webkit-transform: translateY(6px) rotate(-45deg);
+            transform: translateY(6px) rotate(-45deg);
+    width: 30%;
+  }
+  .header .openbtn.active span:nth-of-type(2) {
+    opacity: 0;
+  }
+  .header .openbtn.active span:nth-of-type(3) {
+    top: 30px;
+    left: 18px;
+    -webkit-transform: translateY(-6px) rotate(45deg);
+            transform: translateY(-6px) rotate(45deg);
+    width: 30%;
+  }
+  .header .menu ul li {
+    margin-bottom: 15px;
+  }
+  .header .menu ul li a {
+    color: #333;
+    font-weight: bold;
+  }
+  .header .menu.active {
+    display: block;
+    position: fixed;
+    top: 93px;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  }
+  .header-btn {
+    margin-left: 600px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

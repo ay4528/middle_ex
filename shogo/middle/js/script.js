@@ -1,4 +1,4 @@
-$(function() {
+$(function () {
     //accordion
     $('.faq-list').click(function() {
         var $answer = $(this).find('.answer');
@@ -27,6 +27,11 @@ $(function() {
         } else {
             $('#submit').prop('disabled', false);
         }
+    });
+
+    $('.openbtn').click(function() {
+        $(this).toggleClass('active');
+        $('.menu').toggleClass('active');
     });
 
     AOS.init({
