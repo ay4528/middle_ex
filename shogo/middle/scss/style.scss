@@ -752,4 +752,33 @@ ul {
             margin-left: 600px;
         }
     }
+
+    .main {
+        background-size: 160%;
+        background-position: top 30% right 50%;
+
+        &-inner {
+            padding-top: 120px;
+            padding-bottom: 200px;
+        }
+
+        &-copy {
+            text-align: center;
+
+            h2 {
+                font-size: 24px;
+                margin-bottom: 30px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+
+        &-img {
+            top: 72%;
+            right: 20%;
+            left: 20%;
+        }
+    }
 }

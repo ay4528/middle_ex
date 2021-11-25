@@ -633,5 +633,29 @@ ul {
   .header-btn {
     margin-left: 600px;
   }
+
+  .main {
+    background-size: 160%;
+    background-position: top 30% right 50%;
+  }
+  .main-inner {
+    padding-top: 120px;
+    padding-bottom: 200px;
+  }
+  .main-copy {
+    text-align: center;
+  }
+  .main-copy h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  .main-copy p {
+    font-size: 14px;
+  }
+  .main-img {
+    top: 72%;
+    right: 20%;
+    left: 20%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
