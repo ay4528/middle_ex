@@ -781,4 +781,66 @@ ul {
             left: 20%;
         }
     }
+
+    .feature {
+        &-inner {
+            padding-bottom: 70px;
+        }
+
+        h2 {
+            font-size: 28px;
+        }
+
+        &-wrapper {
+            h3 {
+                font-size: 24px;
+            }
+        }
+
+        &-container {
+            flex-wrap: wrap;
+
+            img {
+                width: 80%;
+                margin: 0 auto;
+            }
+        }
+
+        &-text {
+            margin: 0 auto;
+            padding-left: 10px;
+
+            h4 {
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+
+        &-container-reverse {
+            flex-wrap: wrap;
+
+            img {
+                width: 80%;
+                margin: 0 auto;
+            }
+        }
+
+        &-text-reverse {
+            margin: 0 auto;
+            padding-left: 10px;
+
+            h4 {
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
 }
