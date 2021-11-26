@@ -843,4 +843,85 @@ ul {
             }
         }
     }
+
+    .price {
+        &-table {
+            width: 90%;
+
+            th{
+                display: block;
+                border-right: none;
+                width: 100%;
+            }
+            td {
+                display: block;
+                border-top: 1px solid #e5e5e5;
+                width: 100%;
+                text-align: center;
+                padding: 10px 20px 10px 30px;
+            }
+        }
+    }
+
+    .faq {
+        ul {
+            width: 95%;
+        }
+
+        &-list {
+            margin-right: 20px;
+
+            h3 {
+                font-size: 12px;
+                padding: 0 10px;
+            }
+
+            .answer {
+                font-size: 12px;
+                padding-left: 10px;
+            }
+        }
+    }
+
+    .blog {
+        &-card-wrapper {
+            display: block;
+        }
+
+        &-card {
+            width: 90%;
+            margin-bottom: 20px;
+        }
+    }
+
+    .works {
+        .swiper-wrapper {
+            display: block;
+        }
+
+        .swiper-slide {
+            width: 85%;
+            margin-bottom: 20px;
+        }
+
+        .swiper-button-prev, .swiper-button-next {
+            display: none;
+        }
+    }
+
+    .contact {
+        .form-input {
+            width: 80%;
+        }
+
+        .form-checklabel {
+            font-size: 14px;
+        }
+    }
+
+    .footer {
+        a {
+            font-size: 14px;
+        }
+    }
 }

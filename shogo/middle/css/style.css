@@ -703,5 +703,66 @@ ul {
   .feature-text-reverse p {
     font-size: 14px;
   }
+
+  .price-table {
+    width: 90%;
+  }
+  .price-table th {
+    display: block;
+    border-right: none;
+    width: 100%;
+  }
+  .price-table td {
+    display: block;
+    border-top: 1px solid #e5e5e5;
+    width: 100%;
+    text-align: center;
+    padding: 10px 20px 10px 30px;
+  }
+
+  .faq ul {
+    width: 95%;
+  }
+  .faq-list {
+    margin-right: 20px;
+  }
+  .faq-list h3 {
+    font-size: 12px;
+    padding: 0 10px;
+  }
+  .faq-list .answer {
+    font-size: 12px;
+    padding-left: 10px;
+  }
+
+  .blog-card-wrapper {
+    display: block;
+  }
+  .blog-card {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .works .swiper-wrapper {
+    display: block;
+  }
+  .works .swiper-slide {
+    width: 85%;
+    margin-bottom: 20px;
+  }
+  .works .swiper-button-prev, .works .swiper-button-next {
+    display: none;
+  }
+
+  .contact .form-input {
+    width: 80%;
+  }
+  .contact .form-checklabel {
+    font-size: 14px;
+  }
+
+  .footer a {
+    font-size: 14px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
