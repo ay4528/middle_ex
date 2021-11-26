@@ -925,3 +925,27 @@ ul {
         }
     }
 }
+
+/* media tablet */
+
+@media only screen and (min-width:600px) and (max-width:1024px) {
+    .main {
+        background-size: 80%;
+        background-position: top 20% right -50%;
+
+        &-copy {
+            margin-left: 50px;
+        }
+
+        &-img {
+            top: 40%;
+            right: 5%;
+        }
+    }
+
+    .faq {
+        ul {
+            width: 95%;
+        }
+    }
+}

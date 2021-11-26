@@ -765,4 +765,22 @@ ul {
     font-size: 14px;
   }
 }
+/* media tablet */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .main {
+    background-size: 80%;
+    background-position: top 20% right -50%;
+  }
+  .main-copy {
+    margin-left: 50px;
+  }
+  .main-img {
+    top: 40%;
+    right: 5%;
+  }
+
+  .faq ul {
+    width: 95%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
