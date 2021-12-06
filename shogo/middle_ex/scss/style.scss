@@ -1,0 +1,110 @@
+@use "variable" as v;
+
+body {
+    font-family: "Times New Roman", "游明朝", "Yu Mincho", "游明朝体", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HiraMinProN-W3", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+    color: #000;
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* header */
+
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 80px;
+
+    &-inner {
+        display: flex;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0);
+    }
+
+    &-logo {
+        margin-right: 120px;
+
+        img {
+            width: 200px;
+            height: auto;
+        }
+    }
+
+    &-nav {
+        ul {
+            display: flex;
+
+            li {
+                font-size: 16px;
+                font-weight: bold;
+                margin-right: 30px;
+
+                a {
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    &-btn {
+        margin-left: auto;
+
+        a {
+            display: flex;
+            background-color: v.$btn-color;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            padding: 15px 35px;
+            transition: 0.8s;
+
+            &:hover {
+                opacity: 0.5;
+            }
+        }
+
+        span {
+            margin-right: 10px;
+        }
+    }
+}
+
+/* main */
+
+.main {
+    background-image: url(../img/mainbg01.png);
+    overflow: hidden;
+    height: 1080px;
+
+    &-copy {
+        font-size: 34px;
+        font-weight: bold;
+        line-height: 1.2;
+        letter-spacing: 0.25em;
+        color: #fff;
+        position: relative;
+        top: 360px;
+        left: 66%;
+        writing-mode: vertical-rl;
+
+        .main-title1 {
+            margin-left: 50px;
+        }
+    }
+
+}
